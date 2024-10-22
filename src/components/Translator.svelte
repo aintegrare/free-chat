@@ -29,15 +29,16 @@
 
   async function sync() {
     loading = true
-    const parser = createParser((event) => {
-      if (event.type !== 'event') return
-      if (event.event === 'finish') return (loading = false)
-      if (event.event === 'error') {
-        console.error(event.data)
-        return (loading = false)
-      }
+    const parser = createParser({
+      onEvent(event) {
+        if (event.event === 'finish') return (loading = false)
+        if (event.event === 'error') {
+          console.error(event.data)
+          return (loading = false)
+        }
 
-      parsed = JSON.parse(event.data)
+        parsed = JSON.parse(event.data)
+      },
     })
 
     const body = await fetch(`${promplateBaseUrl}/stream/translate`, { method: 'POST', body: JSON.stringify({ text, language }), headers }).then(r => r.body)
