@@ -10,7 +10,8 @@
   <ModelItem id="gpt-3.5-turbo-0125" name="gpt-3.5-turbo" title="填写自己的 API Key 以使用" />
   <ModelItem id="gpt-4o-mini-2024-07-18" name="gpt-4o-mini" title="🔥 OpenAI 最新的全能模型" />
   <ModelItem id="nous-hermes-2-mixtral-8x7b-dpo" name="nous-hermes-2" title="基于 Mixtral 的 MOE 模型" />
-  <ModelItem id="internlm/internlm2_5-20b-chat" name="internlm2.5-20b" title="✨ 书生·浦语" />
+  <ModelItem id="grok-beta" name="grok-beta" title="🚀 马斯克 x.ai 推出的 Grok" />
+  <!-- <ModelItem id="internlm/internlm2_5-20b-chat" name="internlm2.5-20b" title="✨ 书生·浦语" /> -->
   <ModelItem id="Qwen/Qwen2.5-32B-Instruct" name="Qwen2.5-32B-Instruct" title="✨ 通义千问" />
   <ModelItem id="yi-lightning" name="yi-lightning" title="⭐ 零一万物的霸榜 SOTA 模型" />
   <ModelItem id="THUDM/glm-4-9b-chat" name="glm-4-9b-chat" title="✨ 智谱 AI" />
