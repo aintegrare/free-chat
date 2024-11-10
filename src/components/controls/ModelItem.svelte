@@ -22,7 +22,7 @@
 
   function choose() {
     $model = id
-    trackEvent('model', { model })
+    trackEvent('model', { model: id })
   }
 </script>
 
