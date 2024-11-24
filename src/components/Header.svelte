@@ -2,6 +2,7 @@
   import { onMount } from 'svelte'
   import { Toaster } from 'svelte-sonner'
   import { ripple } from 'svelte-ripple-action'
+  import xai from '@lobehub/icons-static-svg/icons/xai.svg?raw'
   import { LocalStorageSetEvent } from '@/utils/events'
   import { trackEvent } from '@/utils/track'
   import Ad from './Ad.svelte'
@@ -56,7 +57,8 @@
 <div class="transition-opacity" class:op-0={!inView} class:duration-400={inView}>
   <div class="mb-0.6 ml-0.2 mt-0.3 flex flex-row select-none items-center gap-0.7 text-2.6 tracking-wider transition-font-size md:text-3 sm:text-2.8">
     已支持
-    <div class="i-bi-twitter-x text-0.8em" />
+    <!-- eslint-disable-next-line svelte/no-at-html-tags -->
+    <div class="-translate-0.05em">{@html xai}</div>
     最新的 grok-beta
   </div>
 </div>
