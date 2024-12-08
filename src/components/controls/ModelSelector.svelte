@@ -4,7 +4,8 @@
 </script>
 
 <div class="grid grid-cols-2 w-full justify-between gap-1.5 text-sm">
-  <ModelItem id="llama-3.2-90b-vision-preview" name="llama3.2-90b" title="🚀 Meta 最新发布的 Llama3.2" />
+  <ModelItem id="llama-3.3-70b-versatile" name="llama3.3-70b" title="🚀 Meta 最新发布的 Llama3.3 70b" />
+  <ModelItem id="llama-3.2-90b-vision-preview" name="llama3.2-90b" title="🚀 Meta 最新发布的 Llama3.2 90b" />
   <ModelItem id="llama3.1-70b" name="llama3.1-70b" title="🚀 Cerebras 提供的超快 Llama3.1" />
   <ModelItem id="mixtral-8x7b-32768" name="mixtral-8x7b" title="🚀 来自法国的明星大模型 Mixtral" />
   <ModelItem id="gemma2-9b-it" name="gemma2-9b-it" title="🚀 Google 最新发布的 Gemma 2" />
@@ -14,7 +15,6 @@
   <ModelItem id="Qwen/Qwen2.5-32B-Instruct" name="Qwen2.5-32B-Instruct" title="✨ 通义千问" />
   <ModelItem id="yi-lightning" name="yi-lightning" title="⭐ 零一万物的霸榜 SOTA 模型" />
   <ModelItem id="THUDM/glm-4-9b-chat" name="glm-4-9b-chat" title="✨ 智谱 AI" />
-  <ModelItem id="deepseek-ai/DeepSeek-V2.5" name="DeepSeek-V2.5" title="✨ 深度求索" />
   <Hr text="低可用性模型（延迟较大）" />
   <!-- <ModelItem id="azure:gpt-4o" name="gpt-4o" title="GPT 4o (Azure)" /> -->
   <!-- <ModelItem id="azure:gpt-4o-mini" name="gpt-4o-mini" title="GPT 4o mini (Azure)" /> -->
