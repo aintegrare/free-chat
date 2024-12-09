@@ -39,8 +39,8 @@ importers:
         specifier: ^11.10.0
         version: 11.10.0
       katex:
-        specifier: ^0.16.11
-        version: 0.16.11
+        specifier: ^0.16.14
+        version: 0.16.14
       lenis:
         specifier: ^1.1.18
         version: 1.1.18(vue@3.5.12(typescript@5.4.5))
@@ -3336,8 +3336,8 @@ packages:
     resolution: {integrity: sha512-ZZow9HBI5O6EPgSJLUb8n2NKgmVWTwCvHGwFuJlMjvLFqlGG6pjirPhtdsseaLZjSibD8eegzmYpUZwoIlj2cQ==}
     engines: {node: '>=4.0'}
 
-  katex@0.16.11:
-    resolution: {integrity: sha512-RQrI8rlHY92OLf3rho/Ts8i/XvjgguEjOkO1BEXcU3N8BqPpSzBNwV/G0Ukr+P/l3ivvJUE/Fa/CwbS6HesGNQ==}
+  katex@0.16.14:
+    resolution: {integrity: sha512-tnUUAL/S+f/w8KrRpCFcCW/msuIlBkOmVnTmvdEK6WCkx6uDPRj3d9SBAP+qB5x0MCeOyUbdbIMtT5cUJD8aRw==}
     hasBin: true
 
   katex@0.6.0:
@@ -8785,7 +8785,7 @@ snapshots:
       object.assign: 4.1.5
       object.values: 1.2.0
 
-  katex@0.16.11:
+  katex@0.16.14:
     dependencies:
       commander: 8.3.0
 
